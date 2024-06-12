@@ -1,0 +1,13 @@
+train: C:/Users/User/Desktop/Segmentations.v5-instance-segmentation.yolov8/train/images
+val: C:/Users/User/Desktop/Segmentations.v5-instance-segmentation.yolov8/valid/images
+test: C:/Users/User/Desktop/Segmentations.v5-instance-segmentation.yolov8/test/images
+
+nc: 5
+names: ['Gun', 'Knife', 'Plier', 'Scissor', 'Wrench']
+
+roboflow:
+  workspace: yolov8-4kqha
+  project: segmentations-tytqg
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov8-4kqha/segmentations-tytqg/dataset/5
